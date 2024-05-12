@@ -34,6 +34,7 @@ public struct Stack<Element> {
      - Complexity: O(1).
      - Returns: The value of the deleted element. If the stack was empty, returns `nil`.
      */
+    @discardableResult
     public mutating func pop() -> Element? {
         elements.popLast()
     }
