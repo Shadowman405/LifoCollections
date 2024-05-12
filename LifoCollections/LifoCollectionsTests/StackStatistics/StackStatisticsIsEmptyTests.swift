@@ -1,5 +1,5 @@
-import XCTest
 import LifoCollections
+import XCTest
 
 final class StackStatisticsIsEmptyTests: XCTestCase {
     var stack = StackStatistics<Int>()

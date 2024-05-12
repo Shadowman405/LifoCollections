@@ -1,5 +1,5 @@
-import XCTest
 import LifoCollections
+import XCTest
 
 final class StackStatisticsMinimumElement: XCTestCase {
     private struct Dummy: Comparable {
