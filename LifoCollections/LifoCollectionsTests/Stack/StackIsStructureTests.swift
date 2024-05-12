@@ -8,6 +8,6 @@ final class StackIsStructureTests: XCTestCase {
         let stackInstance = Mirror(reflecting: stack)
 
         // When, Then
-        XCTAssertTrue(stackInstance.displayStyle == .struct)
+        XCTAssertEqual(stackInstance.displayStyle, .struct)
     }
 }

@@ -3,8 +3,8 @@ import LifoCollections
 
 final class StackStatisticsGenericsTests: XCTestCase {
     func testStackCanBeCreatedWithDifferentGenericsTypes() {
-        let _ = StackStatistics<Int>()
-        let _ = StackStatistics<Double>()
-        let _ = StackStatistics<Float>()
+        _ = StackStatistics<Int>()
+        _ = StackStatistics<Double>()
+        _ = StackStatistics<Float>()
     }
 }
