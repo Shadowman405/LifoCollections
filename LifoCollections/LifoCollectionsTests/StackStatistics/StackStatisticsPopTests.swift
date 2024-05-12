@@ -20,7 +20,7 @@ final class StackStatisticsPopTests: XCTestCase {
         stack.push(1)
 
         // When
-        let removedElement = stack.pop()
+        stack.pop()
 
         // Then
         XCTAssertEqual(stack.count, expectedStackStatisticsCount)

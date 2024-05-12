@@ -30,7 +30,7 @@ final class StackTopTests: XCTestCase {
         stack.push(-63)
 
         // When
-        stack.top()
+        _ = stack.top()
 
         // Then
         let elementsInStack = stack.count

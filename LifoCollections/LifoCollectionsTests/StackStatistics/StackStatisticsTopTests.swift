@@ -31,7 +31,7 @@ final class StackStatisticsTopTests: XCTestCase {
         let elementsInStackStatistics = stack.count
 
         // When
-        stack.top()
+        _ = stack.top()
 
         // Then
         XCTAssertEqual(stack.count, elementsInStackStatistics)

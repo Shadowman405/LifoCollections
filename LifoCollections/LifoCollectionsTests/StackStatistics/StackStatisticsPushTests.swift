@@ -28,7 +28,7 @@ final class StackStatisticsPushTests: XCTestCase {
         stack.push(44)
 
         // Then
-        let elementsInstackStatistics = stack.count
+        _ = stack.count
         XCTAssertEqual(stack.count, expectedStackSizeAfterPush)
     }
 }
