@@ -10,8 +10,22 @@
 		BF13FFF52BED460D00C1686C /* LifoCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = BF13FFF42BED460D00C1686C /* LifoCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF71339F2BF0E3390044D266 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71339E2BF0E3390044D266 /* Stack.swift */; };
 		BF7133A12BF0E4A10044D266 /* StackStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133A02BF0E4A10044D266 /* StackStatistics.swift */; };
-		BF7133A92BF0ED080044D266 /* LifoCollectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133A82BF0ED080044D266 /* LifoCollectionsTests.swift */; };
+		BF7133A92BF0ED080044D266 /* StackGenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133A82BF0ED080044D266 /* StackGenericsTests.swift */; };
 		BF7133AA2BF0ED080044D266 /* LifoCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF13FFF12BED460D00C1686C /* LifoCollections.framework */; };
+		BF7133B32BF0F9550044D266 /* StackPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133B22BF0F9550044D266 /* StackPushTests.swift */; };
+		BF7133B52BF0F97F0044D266 /* StackTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133B42BF0F97F0044D266 /* StackTopTests.swift */; };
+		BF7133B72BF0F99A0044D266 /* StackPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133B62BF0F99A0044D266 /* StackPopTests.swift */; };
+		BF7133B92BF0F9BD0044D266 /* StackIsEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133B82BF0F9BD0044D266 /* StackIsEmptyTests.swift */; };
+		BF7133BB2BF0F9D40044D266 /* StackIsStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133BA2BF0F9D40044D266 /* StackIsStructureTests.swift */; };
+		BF7133BD2BF0F9EF0044D266 /* StackCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133BC2BF0F9EF0044D266 /* StackCountTests.swift */; };
+		BF7133BF2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133BE2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift */; };
+		BF7133C12BF0FA250044D266 /* StackStatisticsPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C02BF0FA250044D266 /* StackStatisticsPushTests.swift */; };
+		BF7133C32BF0FA3E0044D266 /* StackStatisticsTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C22BF0FA3E0044D266 /* StackStatisticsTopTests.swift */; };
+		BF7133C52BF0FA5C0044D266 /* StackStatisticsPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C42BF0FA5C0044D266 /* StackStatisticsPopTests.swift */; };
+		BF7133C72BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C62BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift */; };
+		BF7133C92BF0FA900044D266 /* StackStatisticsIsStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C82BF0FA900044D266 /* StackStatisticsIsStructureTests.swift */; };
+		BF7133CB2BF0FAAA0044D266 /* StackStatisticsCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133CA2BF0FAAA0044D266 /* StackStatisticsCountTests.swift */; };
+		BF7133CD2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133CC2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +44,21 @@
 		BF71339E2BF0E3390044D266 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		BF7133A02BF0E4A10044D266 /* StackStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatistics.swift; sourceTree = "<group>"; };
 		BF7133A62BF0ED080044D266 /* LifoCollectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifoCollectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF7133A82BF0ED080044D266 /* LifoCollectionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifoCollectionsTests.swift; sourceTree = "<group>"; };
+		BF7133A82BF0ED080044D266 /* StackGenericsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackGenericsTests.swift; sourceTree = "<group>"; };
+		BF7133B22BF0F9550044D266 /* StackPushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPushTests.swift; sourceTree = "<group>"; };
+		BF7133B42BF0F97F0044D266 /* StackTopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTopTests.swift; sourceTree = "<group>"; };
+		BF7133B62BF0F99A0044D266 /* StackPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPopTests.swift; sourceTree = "<group>"; };
+		BF7133B82BF0F9BD0044D266 /* StackIsEmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackIsEmptyTests.swift; sourceTree = "<group>"; };
+		BF7133BA2BF0F9D40044D266 /* StackIsStructureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackIsStructureTests.swift; sourceTree = "<group>"; };
+		BF7133BC2BF0F9EF0044D266 /* StackCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCountTests.swift; sourceTree = "<group>"; };
+		BF7133BE2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsGenericsTests.swift; sourceTree = "<group>"; };
+		BF7133C02BF0FA250044D266 /* StackStatisticsPushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsPushTests.swift; sourceTree = "<group>"; };
+		BF7133C22BF0FA3E0044D266 /* StackStatisticsTopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsTopTests.swift; sourceTree = "<group>"; };
+		BF7133C42BF0FA5C0044D266 /* StackStatisticsPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsPopTests.swift; sourceTree = "<group>"; };
+		BF7133C62BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsIsEmptyTests.swift; sourceTree = "<group>"; };
+		BF7133C82BF0FA900044D266 /* StackStatisticsIsStructureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsIsStructureTests.swift; sourceTree = "<group>"; };
+		BF7133CA2BF0FAAA0044D266 /* StackStatisticsCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsCountTests.swift; sourceTree = "<group>"; };
+		BF7133CC2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsMinimumElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +111,39 @@
 		BF7133A72BF0ED080044D266 /* LifoCollectionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				BF7133A82BF0ED080044D266 /* LifoCollectionsTests.swift */,
+				BF7133B02BF0F8240044D266 /* Stack */,
+				BF7133B12BF0F83C0044D266 /* StackStatistics */,
 			);
 			path = LifoCollectionsTests;
+			sourceTree = "<group>";
+		};
+		BF7133B02BF0F8240044D266 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				BF7133A82BF0ED080044D266 /* StackGenericsTests.swift */,
+				BF7133B22BF0F9550044D266 /* StackPushTests.swift */,
+				BF7133B42BF0F97F0044D266 /* StackTopTests.swift */,
+				BF7133B62BF0F99A0044D266 /* StackPopTests.swift */,
+				BF7133B82BF0F9BD0044D266 /* StackIsEmptyTests.swift */,
+				BF7133BA2BF0F9D40044D266 /* StackIsStructureTests.swift */,
+				BF7133BC2BF0F9EF0044D266 /* StackCountTests.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		BF7133B12BF0F83C0044D266 /* StackStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				BF7133BE2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift */,
+				BF7133C02BF0FA250044D266 /* StackStatisticsPushTests.swift */,
+				BF7133C22BF0FA3E0044D266 /* StackStatisticsTopTests.swift */,
+				BF7133C42BF0FA5C0044D266 /* StackStatisticsPopTests.swift */,
+				BF7133C62BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift */,
+				BF7133C82BF0FA900044D266 /* StackStatisticsIsStructureTests.swift */,
+				BF7133CA2BF0FAAA0044D266 /* StackStatisticsCountTests.swift */,
+				BF7133CC2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift */,
+			);
+			path = StackStatistics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +265,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF7133A92BF0ED080044D266 /* LifoCollectionsTests.swift in Sources */,
+				BF7133C12BF0FA250044D266 /* StackStatisticsPushTests.swift in Sources */,
+				BF7133C32BF0FA3E0044D266 /* StackStatisticsTopTests.swift in Sources */,
+				BF7133CD2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift in Sources */,
+				BF7133B52BF0F97F0044D266 /* StackTopTests.swift in Sources */,
+				BF7133B32BF0F9550044D266 /* StackPushTests.swift in Sources */,
+				BF7133C52BF0FA5C0044D266 /* StackStatisticsPopTests.swift in Sources */,
+				BF7133BD2BF0F9EF0044D266 /* StackCountTests.swift in Sources */,
+				BF7133BB2BF0F9D40044D266 /* StackIsStructureTests.swift in Sources */,
+				BF7133CB2BF0FAAA0044D266 /* StackStatisticsCountTests.swift in Sources */,
+				BF7133B72BF0F99A0044D266 /* StackPopTests.swift in Sources */,
+				BF7133BF2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift in Sources */,
+				BF7133C72BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift in Sources */,
+				BF7133B92BF0F9BD0044D266 /* StackIsEmptyTests.swift in Sources */,
+				BF7133A92BF0ED080044D266 /* StackGenericsTests.swift in Sources */,
+				BF7133C92BF0FA900044D266 /* StackStatisticsIsStructureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
