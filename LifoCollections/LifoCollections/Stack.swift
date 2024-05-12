@@ -1,7 +1,7 @@
 /// A data structure that follows the Last-In-First-Out (LIFO) principle,
 /// where the last element added is the first to be deleted.
 public struct Stack<Element> {
-    private var elements = [Element]()
+    private var elements: [Element]
 
     public init(_ elements: [Element] = [Element]()) {
         self.elements = elements

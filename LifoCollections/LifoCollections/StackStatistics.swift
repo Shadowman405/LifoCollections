@@ -2,7 +2,7 @@
 ///  where the last element added is the first to be deleted.
 /// Provides an opportunity to retrieve the value of the minimum element.
 public struct StackStatistics<Element: Comparable> {
-    private var elements = [Element]()
+    private var elements: [Element]
     private var minimumElements = Stack<Element>()
 
     public init(_ elements: [Element] = []) {
