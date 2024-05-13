@@ -2,8 +2,8 @@
 /// where the last element added is the first to be deleted.
 /// Provides an opportunity to retrieve the value of the minimum element.
 public struct StackStatistics<Element: Comparable> {
-    private var elements: [Element]
-    private var minimumElements = Stack<Element>()
+    private var elements: Stack<Element>
+    private var minimumElements: Stack<Element>
 
     /// Creates a new instance of the stack with initial elements.
     /// - Parameter elements: Elements to store in the stack.
@@ -12,7 +12,9 @@ public struct StackStatistics<Element: Comparable> {
     /// The first element in the array will be
     /// the last one to be removed from the stack.
     public init(_ elements: [Element] = []) {
-        self.elements = []
+        self.elements = Stack()
+        minimumElements = Stack()
+
         elements.forEach {
             push($0)
         }
@@ -37,7 +39,7 @@ public struct StackStatistics<Element: Comparable> {
      - Parameter element: The element to be added to the stack.
      */
     public mutating func push(_ element: Element) {
-        elements.append(element)
+        elements.push(element)
 
         let currentMinimumElement = minimumElements.top() ?? element
         let newMinimumElement = min(currentMinimumElement, element)
@@ -54,7 +56,7 @@ public struct StackStatistics<Element: Comparable> {
     @discardableResult
     public mutating func pop() -> Element? {
         minimumElements.pop()
-        return elements.popLast()
+        return elements.pop()
     }
 
     /**
@@ -65,7 +67,7 @@ public struct StackStatistics<Element: Comparable> {
      - Returns: The value of the top element in the stack. If the stack was empty, returns `nil`.
      */
     public func top() -> Element? {
-        elements.last
+        elements.top()
     }
 
     /**
