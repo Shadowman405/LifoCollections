@@ -13,10 +13,6 @@ final class StackStatisticsMinimumElement: XCTestCase {
 
     var stack = StackStatistics<Int>()
 
-    override func setUp() {
-        stack = StackStatistics<Int>()
-    }
-
     func testReturnsFirstElementAmongAllMinimumElementsAdded() {
         // Given
         let instanceA = Dummy(id: 1, value: 10)

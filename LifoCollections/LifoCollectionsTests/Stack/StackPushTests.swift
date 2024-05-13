@@ -2,11 +2,7 @@ import XCTest
 import LifoCollections
 
 final class StackPushTests: XCTestCase {
-    var stack = Stack<Int>()
-
-    override func setUp() {
-        stack = Stack<Int>()
-    }
+    private var stack = Stack<Int>()
 
     func testAddsElementToTheTopOfTheStack() {
         // Given

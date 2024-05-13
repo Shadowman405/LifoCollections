@@ -4,10 +4,6 @@ import XCTest
 final class StackStatisticsPopTests: XCTestCase {
     var stack = StackStatistics<Int>()
 
-    override func setUp() {
-        stack = StackStatistics<Int>()
-    }
-
     func testWithEmptyStackReturnsNil() {
         // Given an empty stack
         // When, Then

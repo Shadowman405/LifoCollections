@@ -4,10 +4,6 @@ import XCTest
 final class StackStatisticsPushTests: XCTestCase {
     var stack = StackStatistics<Int>()
 
-    override func setUp() {
-        stack = StackStatistics<Int>()
-    }
-
     func testAddsElementToTheTopOfTheStack() {
         // Given
         let elementToPush = 44
