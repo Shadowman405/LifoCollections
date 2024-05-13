@@ -1,5 +1,5 @@
 /// A data structure that follows the Last-In-First-Out (LIFO) principle,
-///  where the last element added is the first to be deleted.
+/// where the last element added is the first to be deleted.
 /// Provides an opportunity to retrieve the value of the minimum element.
 public struct StackStatistics<Element: Comparable> {
     private var elements: [Element]
@@ -23,7 +23,8 @@ public struct StackStatistics<Element: Comparable> {
      Adds a new element to the stack.
 
      - Complexity: O(1) on average, over many calls to `append(_:)` on the same array.
-     In the worst case scenario, the complexity will be O(`n`), where `n` is the number of elements in the stack.
+     In the worst case scenario, the complexity will be O(`n`), 
+     where `n` is the number of elements in the stack.
      - Parameter element: The element to be added to the stack.
      */
     public mutating func push(_ element: Element) {

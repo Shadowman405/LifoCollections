@@ -3,7 +3,7 @@
 public struct Stack<Element> {
     private var elements: [Element]
 
-    public init(_ elements: [Element] = [Element]()) {
+    public init(_ elements: [Element] = []) {
         self.elements = elements
     }
 
