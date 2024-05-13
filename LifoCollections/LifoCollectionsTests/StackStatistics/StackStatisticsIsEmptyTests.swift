@@ -2,7 +2,7 @@ import LifoCollections
 import XCTest
 
 final class StackStatisticsIsEmptyTests: XCTestCase {
-    var stack = StackStatistics<Int>()
+    private var stack = StackStatistics<Int>()
 
     func testEmptyStackReturnsTrue() {
         // Given an empty stack

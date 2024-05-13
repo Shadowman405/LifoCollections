@@ -11,7 +11,7 @@ final class StackStatisticsMinimumElement: XCTestCase {
         let value: Int
     }
 
-    var stack = StackStatistics<Int>()
+    private var stack = StackStatistics<Int>()
 
     func testReturnsFirstElementAmongAllMinimumElementsAdded() {
         // Given

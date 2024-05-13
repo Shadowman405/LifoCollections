@@ -2,7 +2,7 @@ import LifoCollections
 import XCTest
 
 final class StackStatisticsPushTests: XCTestCase {
-    var stack = StackStatistics<Int>()
+    private var stack = StackStatistics<Int>()
 
     func testAddsElementToTheTopOfTheStack() {
         // Given
