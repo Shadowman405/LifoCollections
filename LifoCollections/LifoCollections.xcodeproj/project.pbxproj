@@ -447,7 +447,7 @@
 				MARKETING_VERSION = 0.1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "maxim-mitin.framework.miltiplatform.LifoCollections";
+				PRODUCT_BUNDLE_IDENTIFIER = "maxim-mitin.framework.miltiplatform.lifoCollections.LifoCollections";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -488,7 +488,7 @@
 				MARKETING_VERSION = 0.1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "maxim-mitin.framework.miltiplatform.LifoCollections";
+				PRODUCT_BUNDLE_IDENTIFIER = "maxim-mitin.framework.miltiplatform.lifoCollections.LifoCollections";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = auto;
 				SKIP_INSTALL = YES;
@@ -508,7 +508,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = "";
-				PRODUCT_BUNDLE_IDENTIFIER = maxim.mitin.framework.lifocollectionstests.LifoCollectionsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxim-mitin.framework.miltiplatform.lifoCollections.LifoCollectionsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -527,7 +527,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = "";
-				PRODUCT_BUNDLE_IDENTIFIER = maxim.mitin.framework.lifocollectionstests.LifoCollectionsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxim-mitin.framework.miltiplatform.lifoCollections.LifoCollectionsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";

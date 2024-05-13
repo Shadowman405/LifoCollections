@@ -28,12 +28,12 @@ final class StackStatisticsTopTests: XCTestCase {
         // Given
         stack.push(320)
         stack.push(-63)
-        let elementsInStackStatistics = stack.count
+        let expectedCount = stack.count
 
         // When
         _ = stack.top()
 
         // Then
-        XCTAssertEqual(stack.count, elementsInStackStatistics)
+        XCTAssertEqual(stack.count, expectedCount)
     }
 }
