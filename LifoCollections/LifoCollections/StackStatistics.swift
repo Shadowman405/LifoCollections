@@ -5,8 +5,17 @@ public struct StackStatistics<Element: Comparable> {
     private var elements: [Element]
     private var minimumElements = Stack<Element>()
 
+    /// Creates a new instance of the stack with initial elements.
+    /// - Parameter elements: Elements to store in the stack.
+    /// The initial elements to be added to the stack
+    /// in the order they appear in the array.
+    /// The first element in the array will be
+    /// the last one to be removed from the stack.
     public init(_ elements: [Element] = []) {
-        self.elements = elements
+        self.elements = []
+        elements.forEach {
+            push($0)
+        }
     }
 
     /// The number of elements in the stack.
@@ -36,7 +45,8 @@ public struct StackStatistics<Element: Comparable> {
     }
 
     /**
-     Removes the top element (the most recently added element) from the stack and returns its value.
+     Removes the top element (the most recently added element) 
+     from the stack and returns its value.
 
      - Complexity: O(1).
      - Returns: The value of the deleted element. If the stack was empty, returns `nil`.
@@ -48,12 +58,13 @@ public struct StackStatistics<Element: Comparable> {
     }
 
     /**
-     Returns the top element (the most recent added element) from the stack without removing the element.
+     Returns the top element (the most recent added element) 
+     from the stack without removing the element.
 
      - Complexity: O(1).
      - Returns: The value of the top element in the stack. If the stack was empty, returns `nil`.
      */
-    public mutating func top() -> Element? {
+    public func top() -> Element? {
         elements.last
     }
 
@@ -66,7 +77,7 @@ public struct StackStatistics<Element: Comparable> {
      - Important: If the stack contains several equal minimum elements,
      the function returns the first similar minimum element.
      */
-    public mutating func minimumElement() -> Element? {
+    public func minimumElement() -> Element? {
         minimumElements.top()
     }
 }
