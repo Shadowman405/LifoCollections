@@ -10,13 +10,27 @@
 		BF13FFF52BED460D00C1686C /* LifoCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = BF13FFF42BED460D00C1686C /* LifoCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF71339F2BF0E3390044D266 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71339E2BF0E3390044D266 /* Stack.swift */; };
 		BF7133A12BF0E4A10044D266 /* StackStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133A02BF0E4A10044D266 /* StackStatistics.swift */; };
+		BF7133A92BF0ED080044D266 /* LifoCollectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133A82BF0ED080044D266 /* LifoCollectionsTests.swift */; };
+		BF7133AA2BF0ED080044D266 /* LifoCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF13FFF12BED460D00C1686C /* LifoCollections.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF7133AB2BF0ED080044D266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF13FFE82BED460D00C1686C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF13FFF02BED460D00C1686C;
+			remoteInfo = LifoCollections;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BF13FFF12BED460D00C1686C /* LifoCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LifoCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF13FFF42BED460D00C1686C /* LifoCollections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifoCollections.h; sourceTree = "<group>"; };
 		BF71339E2BF0E3390044D266 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		BF7133A02BF0E4A10044D266 /* StackStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatistics.swift; sourceTree = "<group>"; };
+		BF7133A62BF0ED080044D266 /* LifoCollectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifoCollectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7133A82BF0ED080044D266 /* LifoCollectionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifoCollectionsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +41,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF7133A32BF0ED080044D266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7133AA2BF0ED080044D266 /* LifoCollections.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -34,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				BF13FFF32BED460D00C1686C /* LifoCollections */,
+				BF7133A72BF0ED080044D266 /* LifoCollectionsTests */,
 				BF13FFF22BED460D00C1686C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				BF13FFF12BED460D00C1686C /* LifoCollections.framework */,
+				BF7133A62BF0ED080044D266 /* LifoCollectionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +78,14 @@
 				BF7133A02BF0E4A10044D266 /* StackStatistics.swift */,
 			);
 			path = LifoCollections;
+			sourceTree = "<group>";
+		};
+		BF7133A72BF0ED080044D266 /* LifoCollectionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF7133A82BF0ED080044D266 /* LifoCollectionsTests.swift */,
+			);
+			path = LifoCollectionsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +120,24 @@
 			productReference = BF13FFF12BED460D00C1686C /* LifoCollections.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		BF7133A52BF0ED080044D266 /* LifoCollectionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7133AD2BF0ED080044D266 /* Build configuration list for PBXNativeTarget "LifoCollectionsTests" */;
+			buildPhases = (
+				BF7133A22BF0ED080044D266 /* Sources */,
+				BF7133A32BF0ED080044D266 /* Frameworks */,
+				BF7133A42BF0ED080044D266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7133AC2BF0ED080044D266 /* PBXTargetDependency */,
+			);
+			name = LifoCollectionsTests;
+			productName = LifoCollectionsTests;
+			productReference = BF7133A62BF0ED080044D266 /* LifoCollectionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,11 +145,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					BF13FFF02BED460D00C1686C = {
 						CreatedOnToolsVersion = 15.2;
 						LastSwiftMigration = 1520;
+					};
+					BF7133A52BF0ED080044D266 = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -117,12 +171,20 @@
 			projectRoot = "";
 			targets = (
 				BF13FFF02BED460D00C1686C /* LifoCollections */,
+				BF7133A52BF0ED080044D266 /* LifoCollectionsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BF13FFEF2BED460D00C1686C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7133A42BF0ED080044D266 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -141,7 +203,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF7133A22BF0ED080044D266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7133A92BF0ED080044D266 /* LifoCollectionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF7133AC2BF0ED080044D266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF13FFF02BED460D00C1686C /* LifoCollections */;
+			targetProxy = BF7133AB2BF0ED080044D266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BF13FFF62BED460D00C1686C /* Debug */ = {
@@ -349,6 +427,44 @@
 			};
 			name = Release;
 		};
+		BF7133AE2BF0ED080044D266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "maxim-mitin.framework.miltiplatform.lifoCollections.LifoCollectionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF7133AF2BF0ED080044D266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "maxim-mitin.framework.miltiplatform.lifoCollections.LifoCollectionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -366,6 +482,15 @@
 			buildConfigurations = (
 				BF13FFF92BED460D00C1686C /* Debug */,
 				BF13FFFA2BED460D00C1686C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7133AD2BF0ED080044D266 /* Build configuration list for PBXNativeTarget "LifoCollectionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7133AE2BF0ED080044D266 /* Debug */,
+				BF7133AF2BF0ED080044D266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
