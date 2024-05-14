@@ -9,13 +9,14 @@ Stati framework that contains Last-In-First-Out (LIFO) data structures. Also you
 This repository contains:
 - `Lifoolletions` framework that contains:
     - `Stack` structure that provides basic stack methods and variables:
-        1.`push()` method that adds a new element to the stack.
-        1.`pop()` method that removes the top element (the most recently added element) 
-        1.`top()` method that returns the top element (the most recent added element) 
-        1.`count` variable that stores the number of elements in the stack
-        1.`isEmpty` variable that returns a Boolean value indicating whether the stack is empty or not.
+        * `push()` method that adds a new element to the stack.
+        * `pop()` method that removes the top element (the most recently added element).
+        * `top()` method that returns the top element (the most recent added element).
+        * `count` variable that stores the number of elements in the stack.
+        * `isEmpty` variable that returns a Boolean value indicating whether the stack is empty or not.
     - `StackStatistics` a structure that provides the same methods and variables as the stack, as well as new method:
-        1.`minimumElement` method that returns the minimum element in the stack
+        * `minimumElement` method that returns the minimum element in the stack.
+- `DemoApp` macOS command line tool application, in which implements the basic features of the framework for demonstration of funtionality.
 
 ## Requirements
 * Swift - 5.9.2+
