@@ -10,55 +10,13 @@
 		BF13FFF52BED460D00C1686C /* LifoCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = BF13FFF42BED460D00C1686C /* LifoCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF71339F2BF0E3390044D266 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF71339E2BF0E3390044D266 /* Stack.swift */; };
 		BF7133A12BF0E4A10044D266 /* StackStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133A02BF0E4A10044D266 /* StackStatistics.swift */; };
-		BF7133A92BF0ED080044D266 /* StackGenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133A82BF0ED080044D266 /* StackGenericsTests.swift */; };
-		BF7133AA2BF0ED080044D266 /* LifoCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF13FFF12BED460D00C1686C /* LifoCollections.framework */; };
-		BF7133B32BF0F9550044D266 /* StackPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133B22BF0F9550044D266 /* StackPushTests.swift */; };
-		BF7133B52BF0F97F0044D266 /* StackTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133B42BF0F97F0044D266 /* StackTopTests.swift */; };
-		BF7133B72BF0F99A0044D266 /* StackPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133B62BF0F99A0044D266 /* StackPopTests.swift */; };
-		BF7133B92BF0F9BD0044D266 /* StackIsEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133B82BF0F9BD0044D266 /* StackIsEmptyTests.swift */; };
-		BF7133BB2BF0F9D40044D266 /* StackIsStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133BA2BF0F9D40044D266 /* StackIsStructureTests.swift */; };
-		BF7133BD2BF0F9EF0044D266 /* StackCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133BC2BF0F9EF0044D266 /* StackCountTests.swift */; };
-		BF7133BF2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133BE2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift */; };
-		BF7133C12BF0FA250044D266 /* StackStatisticsPushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C02BF0FA250044D266 /* StackStatisticsPushTests.swift */; };
-		BF7133C32BF0FA3E0044D266 /* StackStatisticsTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C22BF0FA3E0044D266 /* StackStatisticsTopTests.swift */; };
-		BF7133C52BF0FA5C0044D266 /* StackStatisticsPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C42BF0FA5C0044D266 /* StackStatisticsPopTests.swift */; };
-		BF7133C72BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C62BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift */; };
-		BF7133C92BF0FA900044D266 /* StackStatisticsIsStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133C82BF0FA900044D266 /* StackStatisticsIsStructureTests.swift */; };
-		BF7133CB2BF0FAAA0044D266 /* StackStatisticsCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133CA2BF0FAAA0044D266 /* StackStatisticsCountTests.swift */; };
-		BF7133CD2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7133CC2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BF7133AB2BF0ED080044D266 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BF13FFE82BED460D00C1686C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF13FFF02BED460D00C1686C;
-			remoteInfo = LifoCollections;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BF13FFF12BED460D00C1686C /* LifoCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LifoCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF13FFF42BED460D00C1686C /* LifoCollections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifoCollections.h; sourceTree = "<group>"; };
 		BF71339E2BF0E3390044D266 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		BF7133A02BF0E4A10044D266 /* StackStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatistics.swift; sourceTree = "<group>"; };
-		BF7133A62BF0ED080044D266 /* LifoCollectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifoCollectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF7133A82BF0ED080044D266 /* StackGenericsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackGenericsTests.swift; sourceTree = "<group>"; };
-		BF7133B22BF0F9550044D266 /* StackPushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPushTests.swift; sourceTree = "<group>"; };
-		BF7133B42BF0F97F0044D266 /* StackTopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTopTests.swift; sourceTree = "<group>"; };
-		BF7133B62BF0F99A0044D266 /* StackPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPopTests.swift; sourceTree = "<group>"; };
-		BF7133B82BF0F9BD0044D266 /* StackIsEmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackIsEmptyTests.swift; sourceTree = "<group>"; };
-		BF7133BA2BF0F9D40044D266 /* StackIsStructureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackIsStructureTests.swift; sourceTree = "<group>"; };
-		BF7133BC2BF0F9EF0044D266 /* StackCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCountTests.swift; sourceTree = "<group>"; };
-		BF7133BE2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsGenericsTests.swift; sourceTree = "<group>"; };
-		BF7133C02BF0FA250044D266 /* StackStatisticsPushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsPushTests.swift; sourceTree = "<group>"; };
-		BF7133C22BF0FA3E0044D266 /* StackStatisticsTopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsTopTests.swift; sourceTree = "<group>"; };
-		BF7133C42BF0FA5C0044D266 /* StackStatisticsPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsPopTests.swift; sourceTree = "<group>"; };
-		BF7133C62BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsIsEmptyTests.swift; sourceTree = "<group>"; };
-		BF7133C82BF0FA900044D266 /* StackStatisticsIsStructureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsIsStructureTests.swift; sourceTree = "<group>"; };
-		BF7133CA2BF0FAAA0044D266 /* StackStatisticsCountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsCountTests.swift; sourceTree = "<group>"; };
-		BF7133CC2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsMinimumElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,14 +27,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF7133A32BF0ED080044D266 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF7133AA2BF0ED080044D266 /* LifoCollections.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,7 +34,6 @@
 			isa = PBXGroup;
 			children = (
 				BF13FFF32BED460D00C1686C /* LifoCollections */,
-				BF7133A72BF0ED080044D266 /* LifoCollectionsTests */,
 				BF13FFF22BED460D00C1686C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +42,6 @@
 			isa = PBXGroup;
 			children = (
 				BF13FFF12BED460D00C1686C /* LifoCollections.framework */,
-				BF7133A62BF0ED080044D266 /* LifoCollectionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,44 +54,6 @@
 				BF7133A02BF0E4A10044D266 /* StackStatistics.swift */,
 			);
 			path = LifoCollections;
-			sourceTree = "<group>";
-		};
-		BF7133A72BF0ED080044D266 /* LifoCollectionsTests */ = {
-			isa = PBXGroup;
-			children = (
-				BF7133B02BF0F8240044D266 /* Stack */,
-				BF7133B12BF0F83C0044D266 /* StackStatistics */,
-			);
-			path = LifoCollectionsTests;
-			sourceTree = "<group>";
-		};
-		BF7133B02BF0F8240044D266 /* Stack */ = {
-			isa = PBXGroup;
-			children = (
-				BF7133A82BF0ED080044D266 /* StackGenericsTests.swift */,
-				BF7133B22BF0F9550044D266 /* StackPushTests.swift */,
-				BF7133B42BF0F97F0044D266 /* StackTopTests.swift */,
-				BF7133B62BF0F99A0044D266 /* StackPopTests.swift */,
-				BF7133B82BF0F9BD0044D266 /* StackIsEmptyTests.swift */,
-				BF7133BA2BF0F9D40044D266 /* StackIsStructureTests.swift */,
-				BF7133BC2BF0F9EF0044D266 /* StackCountTests.swift */,
-			);
-			path = Stack;
-			sourceTree = "<group>";
-		};
-		BF7133B12BF0F83C0044D266 /* StackStatistics */ = {
-			isa = PBXGroup;
-			children = (
-				BF7133BE2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift */,
-				BF7133C02BF0FA250044D266 /* StackStatisticsPushTests.swift */,
-				BF7133C22BF0FA3E0044D266 /* StackStatisticsTopTests.swift */,
-				BF7133C42BF0FA5C0044D266 /* StackStatisticsPopTests.swift */,
-				BF7133C62BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift */,
-				BF7133C82BF0FA900044D266 /* StackStatisticsIsStructureTests.swift */,
-				BF7133CA2BF0FAAA0044D266 /* StackStatisticsCountTests.swift */,
-				BF7133CC2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift */,
-			);
-			path = StackStatistics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,24 +88,6 @@
 			productReference = BF13FFF12BED460D00C1686C /* LifoCollections.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF7133A52BF0ED080044D266 /* LifoCollectionsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF7133AD2BF0ED080044D266 /* Build configuration list for PBXNativeTarget "LifoCollectionsTests" */;
-			buildPhases = (
-				BF7133A22BF0ED080044D266 /* Sources */,
-				BF7133A32BF0ED080044D266 /* Frameworks */,
-				BF7133A42BF0ED080044D266 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BF7133AC2BF0ED080044D266 /* PBXTargetDependency */,
-			);
-			name = LifoCollectionsTests;
-			productName = LifoCollectionsTests;
-			productReference = BF7133A62BF0ED080044D266 /* LifoCollectionsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,15 +95,11 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					BF13FFF02BED460D00C1686C = {
 						CreatedOnToolsVersion = 15.2;
 						LastSwiftMigration = 1520;
-					};
-					BF7133A52BF0ED080044D266 = {
-						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -229,20 +117,12 @@
 			projectRoot = "";
 			targets = (
 				BF13FFF02BED460D00C1686C /* LifoCollections */,
-				BF7133A52BF0ED080044D266 /* LifoCollectionsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BF13FFEF2BED460D00C1686C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF7133A42BF0ED080044D266 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,37 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF7133A22BF0ED080044D266 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF7133C12BF0FA250044D266 /* StackStatisticsPushTests.swift in Sources */,
-				BF7133C32BF0FA3E0044D266 /* StackStatisticsTopTests.swift in Sources */,
-				BF7133CD2BF0FABE0044D266 /* StackStatisticsMinimumElement.swift in Sources */,
-				BF7133B52BF0F97F0044D266 /* StackTopTests.swift in Sources */,
-				BF7133B32BF0F9550044D266 /* StackPushTests.swift in Sources */,
-				BF7133C52BF0FA5C0044D266 /* StackStatisticsPopTests.swift in Sources */,
-				BF7133BD2BF0F9EF0044D266 /* StackCountTests.swift in Sources */,
-				BF7133BB2BF0F9D40044D266 /* StackIsStructureTests.swift in Sources */,
-				BF7133CB2BF0FAAA0044D266 /* StackStatisticsCountTests.swift in Sources */,
-				BF7133B72BF0F99A0044D266 /* StackPopTests.swift in Sources */,
-				BF7133BF2BF0FA0D0044D266 /* StackStatisticsGenericsTests.swift in Sources */,
-				BF7133C72BF0FA790044D266 /* StackStatisticsIsEmptyTests.swift in Sources */,
-				BF7133B92BF0F9BD0044D266 /* StackIsEmptyTests.swift in Sources */,
-				BF7133A92BF0ED080044D266 /* StackGenericsTests.swift in Sources */,
-				BF7133C92BF0FA900044D266 /* StackStatisticsIsStructureTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BF7133AC2BF0ED080044D266 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BF13FFF02BED460D00C1686C /* LifoCollections */;
-			targetProxy = BF7133AB2BF0ED080044D266 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BF13FFF62BED460D00C1686C /* Debug */ = {
@@ -501,44 +351,6 @@
 			};
 			name = Release;
 		};
-		BF7133AE2BF0ED080044D266 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = "";
-				PRODUCT_BUNDLE_IDENTIFIER = maxim.mitin.framework.lifocollectionstests.LifoCollectionsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BF7133AF2BF0ED080044D266 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = "";
-				PRODUCT_BUNDLE_IDENTIFIER = maxim.mitin.framework.lifocollectionstests.LifoCollectionsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,15 +368,6 @@
 			buildConfigurations = (
 				BF13FFF92BED460D00C1686C /* Debug */,
 				BF13FFFA2BED460D00C1686C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF7133AD2BF0ED080044D266 /* Build configuration list for PBXNativeTarget "LifoCollectionsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BF7133AE2BF0ED080044D266 /* Debug */,
-				BF7133AF2BF0ED080044D266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
