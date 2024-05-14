@@ -5,7 +5,7 @@
 Framework that contains Last-In-First-Out (LIFO) data structures.
 
 ## Requirements
-* [![Swift Version](https://img.shields.io/badge/swift-5.10+-orange.svg)](https://swift.org/)
+* Swift - 5.10+
 * Xcode - Version 15.2+ (15C500b)
 * macOS 10.13+/iOS 12.0+
 
