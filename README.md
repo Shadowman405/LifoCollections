@@ -2,12 +2,12 @@
 
 ## Overview
 
-Stati framework that contains Last-In-First-Out (LIFO) data structures. Also you can find `DemoApp` in this repository, in which implements the basic features of the framework.
+This repository contains the source code of data structure implementations for both iOS and macOS projects. The code is organized into a static framework. A `DemoApp` demonstrating the use of the framework is also included.
 
 ## Contents
 
 This repository contains:
-- `Lifoolletions` framework that contains:
+- `LifoColletions` framework that contains:
     - `Stack` structure that provides basic stack methods and variables:
         * `push()` method that adds a new element to the stack.
         * `pop()` method that removes the top element (the most recently added element).
@@ -16,7 +16,7 @@ This repository contains:
         * `isEmpty` variable that returns a Boolean value indicating whether the stack is empty or not.
     - `StackStatistics` a structure that provides the same methods and variables as the stack, as well as new method:
         * `minimumElement` method that returns the minimum element in the stack.
-- `DemoApp` macOS command line tool application, in which implements the basic features of the framework for demonstration of funtionality.
+- `DemoApp` macOS command line tool application, which demonstrates integration of the framework to the project.
 
 ## Requirements
 * Swift - 5.9.2+
