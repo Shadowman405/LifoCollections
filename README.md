@@ -27,7 +27,7 @@ This repository contains:
 
 To integrate the framework in your project:
 1. Download the latest release version of the `LifoCollections.xcramework` from this repository.
-2. Add the `LifoCollections.xcramework` to your project. We recommend you to choose the `Do not embed` option.
+2. Add the `LifoCollections.xcramework` to your project. We recommend you to choose the `Do Not Embed` option.
 
 ## Versioning
 
