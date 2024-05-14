@@ -1,13 +1,11 @@
 # LifoCollections
 
-[![Swift Version](https://img.shields.io/badge/swift-5.10+-orange.svg)](https://swift.org/)
-
 ## Overview
 
 Framework that contains Last-In-First-Out (LIFO) data structures.
 
 ## Requirements
-* Swift - 5.10+
+* [![Swift Version](https://img.shields.io/badge/swift-5.10+-orange.svg)](https://swift.org/)
 * Xcode - Version 15.2+ (15C500b)
 * macOS 10.13+/iOS 12.0+
 
