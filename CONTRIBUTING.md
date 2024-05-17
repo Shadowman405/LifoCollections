@@ -17,8 +17,17 @@ If you are having difficulties using `LifoContainers` or have a question about u
     - `LifoCollections` version
     - OS version
     - Xcode version
+    
+## How to Submit a PR
+
+1. Make sure that the code builds successfully on the branch which you want to merge to the target branch.
+1. You should check that your code conforms to code style guide (you could follow the steps from the [Code style conformation](./CONTRIBUTING.md#Code style conformation)).
+1. Make sure that your PR has an addressed issue attached to it.
+1. Your PR description should describe the list of changes in it.
+1. Your PR shouldn't have any conflicts with the target branch.
 
 ## Code style conformation
+
 You can find configuration for **SwiftFormat**  [here](./.swiftformat) and **SwiftLint** [here](./.swiftlint) 
 
 Follow these steps to apply our style guide rules to your code:
