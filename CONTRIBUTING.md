@@ -39,6 +39,6 @@ If you are having difficulties using `LifoContainers` or have a question about u
 You can find configuration for **SwiftFormat**  [here](./.swiftformat) and **SwiftLint** [here](./.swiftlint) 
 
 Follow these steps to apply our style guide rules to your code:
-1. To use `SwiftFormat`, run this command: `swiftformat --config <path_to_.swiftormat_configuration_file> <path_to_check>`.
-1. To use `SwiftLint`, run this command: `swiftlint --fix --config <path_to_.swiftlint_configuration_file> <path_to_check>`.
+1. To use `SwiftFormat`, run this command: `swiftformat --config <path_to_.swiftormat_configuration_file> <path_to_check>`. Where `<path_to_.swiftormat_configuration_file>` is a path to the .swiftformat file from the current repository, `<path_to_check>` is path to files or directories to be processed.
+1. To use `SwiftLint`, run this command: `swiftlint --fix --config <path_to_.swiftlint_configuration_file> <path_to_check>`. Where `<swiftlint --fix --config <path_to_.swiftlint_configuration_file>` is a path to the .swiftlint.yml file from the current repository, `<path_to_check>` is path to files or directories to be processed.
 1. Fix all warnings or ignore them only if you're sure it's needed in your situation.
