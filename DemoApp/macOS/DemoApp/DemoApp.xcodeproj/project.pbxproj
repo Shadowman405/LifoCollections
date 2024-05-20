@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF95C87B2BF7F53C00943FA6 /* LifoCollections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF95C87A2BF7F53C00943FA6 /* LifoCollections.xcframework */; };
 		BFE6B7952BF1771C00107B32 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE6B7942BF1771C00107B32 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF95C87A2BF7F53C00943FA6 /* LifoCollections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LifoCollections.xcframework; path = Dependencies/LifoCollections.xcframework; sourceTree = "<group>"; };
 		BFE6B7912BF1771C00107B32 /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE6B7942BF1771C00107B32 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,17 +34,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF95C87B2BF7F53C00943FA6 /* LifoCollections.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF78E9D92BF418BA0064203E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF95C87A2BF7F53C00943FA6 /* LifoCollections.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFE6B7882BF1771C00107B32 = {
 			isa = PBXGroup;
 			children = (
 				BFE6B7932BF1771C00107B32 /* DemoApp */,
 				BFE6B7922BF1771C00107B32 /* Products */,
+				BF78E9D92BF418BA0064203E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
