@@ -41,7 +41,9 @@ If you are having difficulties using `LifoContainers` or have a question about u
 You can find configuration for **SwiftFormat** [here](./.swiftformat) and **SwiftLint** [here](./.swiftlint.yml) 
 
 Run the following commands from the repo's root dir:
-1. `swiftformat --config .swiftformat .`
-1. `swiftlint --fix --config .swiftlint.yml .`
+```bash
+swiftformat --config .swiftformat .
+swiftlint --fix --config .swiftlint.yml .
+```
 
 Fix all warnings or ignore them only if you're sure it's needed in your situation.
