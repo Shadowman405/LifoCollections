@@ -42,6 +42,6 @@ You can find configuration for **SwiftFormat** [here](./.swiftformat) and **Swif
 
 Run the following commands from the repo's root dir:
 1. `swiftformat --config .swiftformat .`
-1. `SwiftLint`, run this command: `swiftlint --fix --config .swiftlint.yml .`
+1. `swiftlint --fix --config .swiftlint.yml .`
 
 Fix all warnings or ignore them only if you're sure it's needed in your situation.
