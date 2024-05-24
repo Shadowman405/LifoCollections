@@ -31,8 +31,8 @@ If you are having difficulties using `LifoContainers` or have a question about u
 
 ## Requirements
 
-- Xcode `15.2`
-- Swift `5.9.2`
+- Xcode `15.2+`
+- Swift `5.9.2+`
 - [SwiftFormat 0.53.8](https://github.com/nicklockwood/SwiftFormat/releases/tag/0.53.8)
 - [SwiftLint 0.53.0](https://github.com/realm/SwiftLint/releases/tag/0.53.0)
 
@@ -40,7 +40,8 @@ If you are having difficulties using `LifoContainers` or have a question about u
 
 You can find configuration for **SwiftFormat** [here](./.swiftformat) and **SwiftLint** [here](./.swiftlint.yml) 
 
-Follow these steps to apply our style guide rules to your code:
-1. To use `SwiftFormat`, run this command: `swiftformat --config <path_to_swiftormat_configuration_file> <path_to_check>`. Where `<path_to_swiftormat_configuration_file>` is a path to the `.swiftformat` file from the current repository, `<path_to_check>` is path to files or directories to be processed.
-1. To use `SwiftLint`, run this command: `swiftlint --fix --config <path_to_swiftlint_configuration_file> <path_to_check>`. Where `<swiftlint --fix --config <path_to_swiftlint_configuration_file>` is a path to the `.swiftlint.yml` file from the current repository, `<path_to_check>` is path to files or directories to be processed.
-1. Fix all warnings or ignore them only if you're sure it's needed in your situation.
+Run the following commands from the repo's root dir:
+1. `swiftformat --config .swiftformat .`
+1. `SwiftLint`, run this command: `swiftlint --fix --config .swiftlint.yml .`
+
+Fix all warnings or ignore them only if you're sure it's needed in your situation.
