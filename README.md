@@ -36,3 +36,7 @@ To integrate the framework in your project:
 ## License
 
 Please refer to the [LICENSE](./LICENSE.md) file for more details.
+
+## Contributing
+
+If you'd like to contribute please follow the [contributing guide](./CONTRIBUTING.md).
