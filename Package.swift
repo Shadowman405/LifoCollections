@@ -12,7 +12,8 @@ let package = Package(
     products: [
         .library(
             name: "LifoCollections",
-            targets: ["LifoCollections"]),
+            targets: ["LifoCollections"]
+        ),
     ],
     targets: [
         .target(
