@@ -30,10 +30,10 @@ This repository contains:
 Swift Package Manager allows to distribute code and is integrated into the `Swift` compiler, `LifoCollections` supports SPM from `0.2.0` version.
 
 You can add `LifoCollections` by adding it as a package dependency to your Xcode project:
-1. In Xcode project, select `File` -> `Add Package Dependencies...`.
-1. Enter `https://github.com/Shadowman405/LifoCollections.git` into `Search or Enter Package URL` search bar.
-1. Select the version of the `LifoCollections` package you want to use. For new projects, recommend using the `Up to Next Major Version` dependency rule.
-1. Click `Add Package` button.
+1. In Xcode project, select 'File' -> 'Add Package Dependencies...'.
+1. Enter `https://github.com/Shadowman405/LifoCollections.git` into 'Search or Enter Package URL' search bar.
+1. Select the version of the `LifoCollections` package you want to use. For new projects, recommend using the 'Up to Next Major Version' dependency rule.
+1. Click 'Add Package' button.
 
 ### XCFramework
 
@@ -45,7 +45,7 @@ Each release includes `*.xcframework` framework binary.
 1. Add the framework target to the Frameworks, Libraries, and Embedded Content section by clicking the `Add(+)` button.
 1. Since `LifoCollections.xcframework` contains static libraries only we recommend choosing the `Do Not Embed` embed option.
 
-### Build `XCFramework` by yourself
+### Build XCFramework by yourself
 You may want to build the binary `LifoCollections.xcframework` file yourself from the source code. To do so you need to follow the [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by Apple.
 
 ## Versioning
