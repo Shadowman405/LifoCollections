@@ -23,11 +23,30 @@ This repository contains:
 * Xcode - Version 15.2+ (15C500b)
 * macOS 10.13+/iOS 12.0+
 
-## Usage
+## Installation guide
 
-To integrate the framework in your project:
-1. Download the latest release version of the `LifoCollections.xcramework` from this repository.
-2. Add the `LifoCollections.xcramework` to your project. We recommend you to choose the `Do Not Embed` option.
+### Swift Package Manager
+
+Swift Package Manager allows to distribute code and is integrated into the `Swift` compiler, `LifoCollections` supports SPM from `0.2.0` version.
+
+You can add `LifoCollections` by adding it as a package dependency to your Xcode project:
+1. In Xcode project, select `File` -> `Add Package Dependencies...`.
+1. Enter `https://github.com/Shadowman405/LifoCollections.git` into `Search or Enter Package URL` search bar.
+1. Select the version of the `LifoCollections` package you want to use. For new projects, recommend using the `Up to Next Major Version` dependency rule.
+1. Click `Add Package` button.
+
+### XCFramework
+
+Each release includes `*.xcframework` framework binary.
+
+1. Download `LifoCollections.xcframework.zip` from [releases](https://github.com/Shadowman405/LifoCollections/releases).
+1. Open the Xcode project or workspace to which you want to add the `LifoCollections.xcframework`.
+1. Go to the target’s General configuration page.
+1. Add the framework target to the Frameworks, Libraries, and Embedded Content section by clicking the `Add(+)` button.
+1. Since `LifoCollections.xcframework` contains static libraries only we recommend choosing the `Do Not Embed` embed option.
+
+### Build `XCFramework` by yourself
+You may want to build the binary `LifoCollections.xcframework` file yourself from the source code. To do so you need to follow the [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by Apple.
 
 ## Versioning
 
