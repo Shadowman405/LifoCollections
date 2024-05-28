@@ -41,8 +41,8 @@ Each release includes `*.xcframework` framework binary.
 
 1. Download `LifoCollections.xcframework.zip` from [releases](https://github.com/Shadowman405/LifoCollections/releases).
 1. Open the Xcode project or workspace to which you want to add the `LifoCollections.xcframework`.
-1. Go to the target’s General configuration page.
-1. Add the framework target to the Frameworks, Libraries, and Embedded Content section by clicking the `Add(+)` button.
+1. Go to the target’s **General** configuration page.
+1. Add the framework target to the **Frameworks, Libraries, and Embedded Content** section by clicking the `Add(+)` button.
 1. Since `LifoCollections.xcframework` contains only static libraries, it is recommended to choose the `Do Not Embed` option.
 
 ### Build XCFramework by yourself
