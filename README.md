@@ -50,7 +50,7 @@ You may want to build the binary `LifoCollections.xcframework` file yourself fro
 
 ## Versioning
 
-`LifoCollections` follows [SemVer 2.0.0](https://semver.org/). We release patch versions for bug fixes, minor versions for new features (and rarely, clear and easy to fix breaking changes), and major versions for any major breaking changes. When we make breaking changes, we also introduce deprecation warnings in a minor version so that our users learn about the upcoming changes and migrate their code in advance.
+`LifoCollections` follows [SemVer 2.0.0](https://semver.org/). Patch versions are being released to fix bugs, minor versions for new features (and rarely, clear and easy to fix breaking changes), and major versions for any major breaking changes. When breaking changes are made, deprecation warnings also appear in the minor version so that users can learn about upcoming changes and migrate their code in advance.
 
 ## License
 
