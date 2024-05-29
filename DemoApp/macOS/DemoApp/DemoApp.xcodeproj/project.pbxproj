@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF95C87B2BF7F53C00943FA6 /* LifoCollections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF95C87A2BF7F53C00943FA6 /* LifoCollections.xcframework */; };
+		BF0C37E72C072171000BAD20 /* LifoCollections in Frameworks */ = {isa = PBXBuildFile; productRef = BF0C37E62C072171000BAD20 /* LifoCollections */; };
 		BFE6B7952BF1771C00107B32 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE6B7942BF1771C00107B32 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF95C87A2BF7F53C00943FA6 /* LifoCollections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LifoCollections.xcframework; path = Dependencies/LifoCollections.xcframework; sourceTree = "<group>"; };
 		BFE6B7912BF1771C00107B32 /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE6B7942BF1771C00107B32 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,27 +33,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF95C87B2BF7F53C00943FA6 /* LifoCollections.xcframework in Frameworks */,
+				BF0C37E72C072171000BAD20 /* LifoCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BF78E9D92BF418BA0064203E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF95C87A2BF7F53C00943FA6 /* LifoCollections.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BFE6B7882BF1771C00107B32 = {
 			isa = PBXGroup;
 			children = (
 				BFE6B7932BF1771C00107B32 /* DemoApp */,
 				BFE6B7922BF1771C00107B32 /* Products */,
-				BF78E9D92BF418BA0064203E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +80,9 @@
 			dependencies = (
 			);
 			name = DemoApp;
+			packageProductDependencies = (
+				BF0C37E62C072171000BAD20 /* LifoCollections */,
+			);
 			productName = DemoApp;
 			productReference = BFE6B7912BF1771C00107B32 /* DemoApp */;
 			productType = "com.apple.product-type.tool";
@@ -118,6 +111,9 @@
 				Base,
 			);
 			mainGroup = BFE6B7882BF1771C00107B32;
+			packageReferences = (
+				BF0C37E52C072171000BAD20 /* XCLocalSwiftPackageReference "../../.." */,
+			);
 			productRefGroup = BFE6B7922BF1771C00107B32 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -301,6 +297,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BF0C37E52C072171000BAD20 /* XCLocalSwiftPackageReference "../../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF0C37E62C072171000BAD20 /* LifoCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LifoCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFE6B7892BF1771C00107B32 /* Project object */;
 }
