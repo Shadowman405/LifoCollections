@@ -1,5 +1,5 @@
-import XCTest
 import LifoCollections
+import XCTest
 
 final class StackIsStructureTests: XCTestCase {
     func testStackIsStructureReturnsTrue() {

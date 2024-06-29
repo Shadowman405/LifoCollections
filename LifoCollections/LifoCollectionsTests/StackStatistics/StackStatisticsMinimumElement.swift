@@ -3,7 +3,10 @@ import XCTest
 
 final class StackStatisticsMinimumElement: XCTestCase {
     private struct Dummy: Comparable {
-        static func < (lhs: StackStatisticsMinimumElement.Dummy, rhs: StackStatisticsMinimumElement.Dummy) -> Bool {
+        static func < (
+            lhs: StackStatisticsMinimumElement.Dummy,
+            rhs: StackStatisticsMinimumElement.Dummy
+        ) -> Bool {
             lhs.value < rhs.value
         }
 
