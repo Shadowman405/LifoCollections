@@ -34,7 +34,7 @@ public struct StackStatistics<Element: Comparable> {
      Adds a new element to the stack.
 
      - Complexity: O(1) on average, over many calls to `append(_:)` on the same array.
-     In the worst case scenario, the complexity will be O(`n`), 
+     In the worst case scenario, the complexity will be O(`n`),
      where `n` is the number of elements in the stack.
      - Parameter element: The element to be added to the stack.
      */
@@ -47,7 +47,7 @@ public struct StackStatistics<Element: Comparable> {
     }
 
     /**
-     Removes the top element (the most recently added element) 
+     Removes the top element (the most recently added element)
      from the stack and returns its value.
 
      - Complexity: O(1).
@@ -60,7 +60,7 @@ public struct StackStatistics<Element: Comparable> {
     }
 
     /**
-     Returns the top element (the most recent added element) 
+     Returns the top element (the most recent added element)
      from the stack without removing the element.
 
      - Complexity: O(1).
